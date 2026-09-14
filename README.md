@@ -1,8 +1,7 @@
-# secure-post-encryption-system-CSE447
-
+secure-post-encryption-system-CSE447
 CSE447 Secure Database Project
 
-A security-focused application demonstrating user authentication, database encryption, post encryption, key management, and data integrity using modern cryptographic techniques.
+A security-focused application demonstrating user authentication, database encryption, post encryption, key management, and data integrity using cryptographic techniques.
 
 Features
 User registration and login
@@ -20,25 +19,17 @@ AES-256-CBC
 SHA-256
 HMAC-SHA256
 Setup
+Clone the repository
+git clone https://github.com/YOUR-USERNAME/secure-post-encryption-system-CSE447.git
+cd secure-post-encryption-system-CSE447
 
-Clone the repository:
-
-git clone https://github.com/YOUR-USERNAME/secure-mongodb-auth-encryption.git
-cd secure-mongodb-auth-encryption
-
-
-Install dependencies:
-
+Install dependencies
 pip install -r requirements.txt
 
-
-Create .env:
-
+Create .env
 MONGODB_URI=your_mongodb_connection_string
 
-
-Run:
-
+Run
 python secure_app.py
 
 Environment Variables
@@ -49,6 +40,8 @@ Example .env.example:
 
 MONGODB_URI=mongodb+srv://USERNAME:PASSWORD@YOUR-CLUSTER.mongodb.net/
 
+
+Do not commit .env, database credentials, or aes_master.key to GitHub.
 
 Project Structure
 project/
