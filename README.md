@@ -43,7 +43,9 @@ MONGODB_URI=mongodb+srv://USERNAME:PASSWORD@YOUR-CLUSTER.mongodb.net/
 
 Do not commit .env, database credentials, or aes_master.key to GitHub.
 
-Project Structure
+## Project Structure
+
+```text
 project/
 ├── secure_app.py
 ├── requirements.txt
@@ -51,7 +53,7 @@ project/
 ├── .env.example
 ├── .gitignore
 └── aes_master.key
-
+```
 Project
 
 CSE447 Lab Project — Secure Authentication, Database Encryption and Post Encryption.
